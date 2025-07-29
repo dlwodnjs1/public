@@ -1,0 +1,38 @@
+package sec01.exam01;
+
+public class Member {
+	String name;
+	String phone;
+	String adderss;
+	int sal;
+	
+	Member() {
+		this("사용자", "010-1234-5678", "성남", 50);
+	}
+	
+		
+	public Member(String name, String phone) {
+		this(name, phone, "서울", 100);
+	}
+
+
+
+	public Member(String name, String phone, String adderss) {
+		this(name, phone, "서울", 500);
+	}
+
+
+	public Member(String name, String phone, String adderss, int sal) {
+		this.name = name;
+		this.phone = phone;
+		this.adderss = adderss;
+		this.sal = sal;
+		System.out.println("생성 완료!!!");
+	}
+
+
+
+	public static void main(String[] args) {
+		Member member = new Member();
+	}
+}

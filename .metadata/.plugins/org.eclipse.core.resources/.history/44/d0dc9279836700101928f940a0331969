@@ -1,0 +1,12 @@
+package sec01.exam01;
+
+public class ArrayTest1 {
+
+	public static void main(String[] args) {
+		int score[] = new int[3];
+		
+		System.out.println(score[0]);
+
+	}
+
+}

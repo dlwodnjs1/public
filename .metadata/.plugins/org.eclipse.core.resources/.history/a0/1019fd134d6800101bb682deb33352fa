@@ -1,0 +1,22 @@
+package sec01.swing;
+
+import javax.swing.JFrame;
+
+class MyFrame extends JFrame {
+	
+	public MyFrame() {
+		this.setSize(200, 100);
+		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}
+
+public class MyWin {
+
+	public static void main(String[] args) {
+		new MyFrame();
+
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package sec01.exam01;
+
+import java.io.FileOutputStream;
+
+public class WriteEx1 {
+	public static void main(String[] args) {
+		OutputStream os = new FileOutputStream("C:/tmp/test1.db");
+	}
+
+}

@@ -1,0 +1,11 @@
+package sec01.exam01;
+
+import java.io.FileOutputStream;
+
+public class WriteEx1 {
+	public static void main(Stirng[] args) {
+		OutputStream os = new FileOutputStream("c:/tmp/test1.db");
+	}
+
+}
+	

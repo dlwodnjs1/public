@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입력 > ");
+		String inputdata = sc.nextLine();
+		
+		int num = Integer.parseInt(inputdata);
+		
+		System.out.printf("정수: %d\n", num);
+		System.out.printf("문자열: %s", inputdata);
+//		if(num<0) {
+//			System.out.println("음수");
+//		} 
+//		else if(num>0) {
+//			System.out.println("양수");
+//		}
+//		else {
+//			System.out.println("0");
+//		}
+	}
+}

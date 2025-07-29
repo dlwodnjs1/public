@@ -1,0 +1,24 @@
+package sec01.exam01;
+
+import java.util.Scanner;
+
+public class ArrayTest1 {
+
+	// Scanner, nextline() 사용하여 점수를 입력받고 출력하기
+	public static void main(String[] args) {
+		int score[] = new int[3]; // 정수 배열 3개 생성
+		int sum = 0;
+		int avg = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		for (int i = 0; i < score.length; i++) {
+			System.out.printf("%d 점수 > ", i);
+			score[i] = Integer.parseInt(scan.nextLine());
+			sum += score[i];
+		}
+		
+		avg = sum / score.length;
+		System.out.println("총점 : %d, 평균: %d\n " +sum);
+
+	}
+}
