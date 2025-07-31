@@ -1,7 +1,0 @@
-package sec01.ex01;
-
-public class Ex001 {
-	public static void main(String arg[]) {
-		System.out.println();
-	}
-}
