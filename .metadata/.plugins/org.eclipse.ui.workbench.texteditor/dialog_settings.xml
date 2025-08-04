@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="724"/>
 		<item key="DIALOG_Y_ORIGIN" value="396"/>
+	</section>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="String name1"/>
+			<item value="this.stmt"/>
+			<item value="Container con = this.getContentPane();"/>
+			<item value="con"/>
+			<item value="sql = String."/>
+			<item value="sql = String.format(&quot;insert into baseball(name, battingavg, ops) ...&quot;);"/>
+			<item value="sql = String.format(&quot;update baseball set product = &apos;%s&apos;, quantity = %s where name1 = &apos;%s&apos;&quot;, "/>
+			<item value="sql = String.format(&quot;update baseball set product = &apos;%s&apos;, quantity = %s where order_id = &apos;%s&apos;&quot;, "/>
+			<item value="sql = String.format(&quot;delete from baseball where name1 = &apos;%s&apos;&quot;, name1);"/>
+			<item value="update"/>
+		</list>
 	</section>
 </section>

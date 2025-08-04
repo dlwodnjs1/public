@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.awt.Container"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
@@ -24,4 +23,8 @@
     <fullyQualifiedTypeName name="javax.annotation.processing.Generated"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="sec03.exam02.Dog"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.parser.Scanner"/>
 </qualifiedTypeNameHistroy>

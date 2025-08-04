@@ -1,7 +1,0 @@
-package sec01.jdbc;
-
-import javax.swing.JFrame;
-
-public class MyFramejava {
-
-}
